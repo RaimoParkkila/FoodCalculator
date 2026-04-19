@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "dososupli",
-    "slug": "dososupli",
+    "name": "foodcalculator",
+    "slug": "foodcalculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "dososupli",
+    "scheme": "foodcalculator",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.raimo.foodcalculator"
     },
     "web": {
       "output": "static",
@@ -44,6 +45,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "6a46742a-cab5-4959-b571-5a64959f44e4"
+      }
     }
   }
 }
