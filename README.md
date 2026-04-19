@@ -1,50 +1,32 @@
-# Welcome to your Expo app 👋
+# FoodCalculator
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Offline-first food tracking app built with React Native (Expo).
 
-## Get started
+## Features
+- Food database with SQLite
+- Macro tracking (protein / carbs / fat)
+- Daily plan system
+- Adjustable portions
+- Add / delete food items
+- Offline-first design
 
-1. Install dependencies
+## Tech
+- React Native (Expo)
+- SQLite
 
-   ```bash
-   npm install
-   ```
+## Status
+MVP prototype – core functionality working.
 
-2. Start the app
+## Purpose
+Built for personal use and learning full-stack mobile development.
 
-   ```bash
-   npx expo start
-   ```
+## Screenshots
 
-In the output, you'll find options to open the app in a
+### Food Planning System
+<img width="720" height="1560" alt="PLAN" src="https://github.com/user-attachments/assets/175986e5-2810-41c6-b0a9-fba32555f929" />
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Food List (A–Z sorted)
+<img width="720" height="1560" alt="List Food Items" src="https://github.com/user-attachments/assets/610afdb9-60dd-44dc-b488-b3d6b6a7445b" />
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Add Food Item
+<img width="720" height="1560" alt="Add Food Item" src="https://github.com/user-attachments/assets/118058bd-8de7-4489-b40e-f21e0eeed9ba" />
